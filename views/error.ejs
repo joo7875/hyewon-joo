@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset='utf-8'>
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	  <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/nav.css">
+    <link rel="stylesheet" href="/stylesheets/error.css">
+
+    <title><%= title %></title>
+  </head>
+  <body>
+
+	<div class="sidenav">
+      <a id="logo" href="/">Hyewon Joo</a>
+
+      <a href="/">Home</a>
+      <a href="/resume">CV</a>
+
+      <button class="dropdown-btn">Projects</button>
+
+      <div class="dropdown-container">
+        <a href="/projects/android">Android</a>
+        <a href="/projects/web">Web</a>
+        <a href="/projects/mfc">MFC</a>
+        <a href="/projects/study">Study</a>
+      </div>
+
+      <a href="/about">About</a>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a id="logo-mid" href="/">Hyewon Joo</a>
+
+      <a href="/">Home</a>
+      <a href="/resume">CV</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="/projects/android">Android</a>
+          <a href="/projects/web">Web</a>
+          <a href="/projects/mfc">MFC</a>
+          <a href="/projects/study">Study</a>
+        </div>
+      </div> 
+      <a href="/about">About</a>
+      
+      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+
+
+    <div class="main">
+      <div class="title">Oops!<br>The page you requested isn't available.</div>
+    </div>
+
+
+	<script src="/javascripts/index.js"></script>
+
+  </body>
+
+
+</html>
+
+<!-- <h1><%= message %></h1>
+<h2><%= error.status %></h2>
+<pre><%= error.stack %></pre>
+ -->

@@ -1,0 +1,14 @@
+.main {
+  background-color: #f7f7f7;
+  border-radius: 100px 0;
+  margin-left: 290px; 
+  padding: 13em 5em;
+  padding-bottom: 15em;
+}
+
+.title {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 35px;
+	text-align: center;
+	line-height: 1.5em;
+}

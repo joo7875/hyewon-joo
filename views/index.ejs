@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset='utf-8'>
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/nav.css">
+    <link rel="stylesheet" href="/stylesheets/home.css">
+
+    <title><%= title %></title>
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <a id="logo" href="/">Hyewon Joo</a>
+
+      <a class="active" href="/">Home</a>
+      <a href="/resume">CV</a>
+
+      <button class="dropdown-btn">Projects</button>
+
+      <div class="dropdown-container">
+        <a href="/projects/android">Android</a>
+        <a href="/projects/web">Web</a>
+        <a href="/projects/mfc">MFC</a>
+        <a href="/projects/study">Study</a>
+      </div>
+
+      <a href="/about">About</a>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a id="logo-mid" href="/">Hyewon Joo</a>
+
+      <a class="active" href="/">Home</a>
+      <a href="/resume">CV</a>
+      <div class="dropdown">
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <a href="/projects/android">Android</a>
+          <a href="/projects/web">Web</a>
+          <a href="/projects/mfc">MFC</a>
+          <a href="/projects/study">Study</a>
+        </div>
+      </div> 
+      <a href="/about">About</a>
+      
+      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+
+    <div class="main">
+      <img id="profile" src="/images/profile.png" alt="Hyewon Joo">
+      <div id="name">Hi, I'm Hyewon!</div>
+      <div id="intro">I am dedicated to learn new things and to contribute the knowledge in a good way. I am highly interested in jumping into new projects where I am able to keep learning new concepts, utilize them with knowledge I know and put altogether, lead them to get things successful. I am a hard-worker, self-learner, individual-team player and fast-adaptable person whom you might want to collaborate and work with.</div>
+      <div id="email">joo7875@gmail.com</div>
+    </div>
+
+
+  <script src="/javascripts/index.js"></script>
+
+  </body>
+
+
+</html>

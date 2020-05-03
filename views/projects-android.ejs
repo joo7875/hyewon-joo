@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset='utf-8'>
+   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/nav.css">
+    <link rel="stylesheet" href="/stylesheets/projects.css">
+
+    <title><%= title %></title>
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <a id="logo" href="/">Hyewon Joo</a>
+
+      <a href="/">Home</a>
+      <a href="/resume">CV</a>
+
+      <button class="dropdown-btn active">Projects</button>
+
+      <div class="dropdown-container" style="display: block;">
+        <a class="active" href="/projects/android">Android</a>
+        <a href="/projects/web">Web</a>
+        <a href="/projects/mfc">MFC</a>
+        <a href="/projects/study">Study</a>
+      </div>
+
+      <a href="/about">About</a>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a id="logo-mid" href="/">Hyewon Joo</a>
+
+      <a href="/">Home</a>
+      <a href="/resume">CV</a>
+      <div class="dropdown">
+        <button class="dropbtn active">Projects</button>
+        <div class="dropdown-content">
+          <a class="active" href="/projects/android">Android</a>
+          <a href="/projects/web">Web</a>
+          <a href="/projects/mfc">MFC</a>
+          <a href="/projects/study">Study</a>
+        </div>
+      </div> 
+      <a href="/about">About</a>
+      
+      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+
+
+
+
+    <div class="main">
+
+      <!-- TimeTravel -->
+      <div>
+        <img class="project-img" src="/images/android-timetravel-appflow-1.jpg" alt="android-timetravel-appflow-1">
+        <img class="project-img" src="/images/android-timetravel-appflow-2.jpg" alt="android-timetravel-appflow-2">
+        <img class="project-img" src="/images/android-timetravel-appflow-3.jpg" alt="android-timetravel-appflow-3">
+        <img class="project-img" src="/images/android-timetravel-appflow-4.jpg" alt="android-timetravel-appflow-4">
+        <img class="project-img" src="/images/android-timetravel-draft-1.jpg" alt="android-timetravel-draft-1">
+        <img class="project-img" src="/images/android-timetravel-draft-2.jpg" alt="android-timetravel-draft-2">
+
+        <div class="title-div"><span class="title">TimeTravel App</span><span class="date">2020 - Present</span></div>
+        <div class="role">Founder · Planner · Android Developer</div>
+        <ul class="ul">
+          <li>돌아가고 싶은 기억을 떠올리며 그 당시에 생각했던 것, 그때로 돌아갈 수 있다면 이루고 싶은 것, 그 때 당시에 관한 모든 것을 적을 수 있는 공간</li>
+          <li>오늘 무슨 일이 있었는지, 무슨 감정을 느꼈는지 기록할 수 있는 일기장</li>
+          <li>앞으로 나의 미래에 무슨 일이 일어날지 예상하고, 이루고 싶은 일이 있다면 그것을 소중하게 기록할 수 있는 리마인더</li>
+          <li>자신의 과거와 현재, 미래의 나의 인생을 담는 나만의 공간</li>
+        </ul>
+        <br>
+        <div>[<a class="link" href="https://bitbucket.org/joo7875/lifetable/commits/" target="_blank">Code</a>]</div>
+      </div>
+
+      <hr>
+
+      <!-- KoreanPocket -->
+      <div>
+        <img class="koreanpocket-feature-img" src="/images/android-koreanpocket-feature.jpg" alt="android-koreanpocket-feature">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-1.png" alt="android-koreanpocket-1">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-2.png" alt="android-koreanpocket-2">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-3.png" alt="android-koreanpocket-3">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-4.png" alt="android-koreanpocket-4">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-5.png" alt="android-koreanpocket-5">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-6.png" alt="android-koreanpocket-6">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-7.png" alt="android-koreanpocket-7">
+        <img class="koreanpocket-img" src="/images/android-koreanpocket-8.png" alt="android-koreanpocket-8">
+
+        <div class="title-div"><span class="title">KoreanPocket</span><span class="date">2017 - 2018</span></div>
+        <div class="role">Founder · Planner · Android Developer</div>
+        <div class="content">
+          KoreanPocket is a fun language-learning app for improving your Korean skills. It includes categories, flashcards, screen slides, games and quizzes to help you practice and retain your understanding. Take your Korean language learning materials with you in your pocket!
+          <br>
+          Built by both Korean and English speakers, KoreanPocket covers topics such as greetings, daily life, and business vocabulary and phrases. It provides a great start for anyone seeking to improve their Korean skills.
+        </div>
+        <div>[<a class="link" href="https://play.google.com/store/apps/details?id=com.hyewonjoo.koreanpocket&hl=en" target="_blank">Download the app</a>] [<a class="link" href="/external/projects-android-koreanpocket-appflow.pdf" target="_blank">App Flow</a>] [<a class="link" href="/external/projects-android-koreanpocket-ppt.pdf" target="_blank">Slides</a>]</div>
+      </div>
+
+      <hr>
+
+      <!-- TICON -->
+      <div>
+        <img class="ticon-wireframe" src="/images/android-ticon-intro.jpg" alt="android-ticon-intro">
+        <img class="ticon-wireframe" src="/images/android-ticon-wireframe.png" alt="android-ticon-wireframe">
+
+        <div class="title-div"><span class="title">Stipop (Previous name: TICON)</span><span class="date">2016</span></div>
+        <div class="role">Server Developer</div>
+        <ul class="ul">
+          <li>Emoticon market as an open platform!</li>
+          <li>Users can freely create their own emoticons and launch them on the market, share emoticons they created in free markets with friends, earn money by selling emoticons through the pay market, transact emoticons using <b>cone</b> which is virtual money of TICON, and share emoticons to external messenger service</li>
+          <li>Drawing tool is provided in the app</li>
+          <li>Used the MySQL program to build the necessary database tables and wrote most of the SQL queries</li>
+          <li>Designed SQL queries to list items in order of rank, popularity, and download rank of emoticons and compromise them on node.js program</li>
+        </ul>
+        <br>
+        <div>[<a class="link" href="https://play.google.com/store/apps/details?id=io.stipop.sticker_platform&hl=en_US" target="_blank">Android</a> | <a class="link" href="https://apps.apple.com/us/app/stipop-stickers-unlimited/id1288492157" target="_blank">iOS</a>] [<a class="link" href="/external/projects-android-ticon-slides.pdf" target="_blank">Slides</a>] [<a class="link" href="/external/projects-android-ticon-api.pdf" target="_blank">API Reference</a>] [<a class="link" href="/external/projects-android-ticon-video.mp4" target="_blank">Video Clip</a>]</div>
+      </div>
+
+      <hr>
+
+      <!-- HearTree -->
+      <div>
+        <img class="heartree-logo" src="/images/android-heartree-logo.png" alt="android-heartree-logo">
+        <img class="heartree-img" src="/images/android-heartree-1.jpg" alt="android-heartree-1">
+        <img class="heartree-img" src="/images/android-heartree-2.jpg" alt="android-heartree-2">
+        <img class="heartree-img" src="/images/android-heartree-3.jpg" alt="android-heartree-3">
+        <img class="heartree-img" src="/images/android-heartree-4.jpg" alt="android-heartree-4">
+        <img class="heartree-img" src="/images/android-heartree-5.jpg" alt="android-heartree-5">
+
+        <div class="title-div"><span class="title">HearTree</span><span class="date">2015</span></div>
+        <div class="role">Server Developer</div>
+        <ul class="ul">
+          <li>커플들의 추억을 차곡차곡 쌓을 수 있는 나무 컨셉의 커플 어플리케이션</li>
+          <li>뿌리(만남)부터 줄기(서로 알아가는 단계), 열매(추억 거리)까지 연애 모든 것을 나무모양의 <하트리>에 기록</li>
+          <li>서로의 일정을 공유하고 기념일을 표시할 수 있는 <하트캘린더> 기능</li>
+          <li>커플의 기념일을 계산해 알려주는 <하트얼럿> 기능</li>
+          <li>서로의 주소록을 공유하는 <하트폰북> 기능</li>
+        </ul>
+        <br>
+        <div>[<a class="link" href="/external/projects-android-heartree-slides.pdf" target="_blank">Slides</a>]</div>
+
+      </div>
+     
+    </div>
+
+
+  <script src="/javascripts/index.js"></script>
+
+  </body>
+
+
+</html>

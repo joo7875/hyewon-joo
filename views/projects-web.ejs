@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheets/nav.css">
+    <link rel="stylesheet" href="/stylesheets/projects.css">
+
+    <title><%= title %></title>
+  </head>
+
+  <body>
+
+    <div class="sidenav">
+      <a id="logo" href="/">Hyewon Joo</a>
+
+      <a href="/">Home</a>
+      <a href="/resume">CV</a>
+
+      <button class="dropdown-btn active">Projects</button>
+
+      <div class="dropdown-container" style="display: block;">
+        <a href="/projects/android">Android</a>
+        <a class="active" href="/projects/web">Web</a>
+        <a href="/projects/mfc">MFC</a>
+        <a href="/projects/study">Study</a>
+      </div>
+
+      <a href="/about">About</a>
+    </div>
+
+    <div class="topnav" id="myTopnav">
+      <a id="logo-mid" href="/">Hyewon Joo</a>
+
+      <a href="/">Home</a>
+      <a href="/resume">CV</a>
+      <div class="dropdown">
+        <button class="dropbtn active">Projects</button>
+        <div class="dropdown-content">
+          <a href="/projects/android">Android</a>
+          <a class="active" href="/projects/web">Web</a>
+          <a href="/projects/mfc">MFC</a>
+          <a href="/projects/study">Study</a>
+        </div>
+      </div> 
+      <a href="/about">About</a>
+      
+      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+
+
+
+    <div class="main">
+
+      <!-- 주식회사 오성전자 -->
+      <div>
+        <img class="project-img" src="/images/web-woseng-1.png" alt="web-woseng-1">
+        <img class="project-img" src="/images/web-woseng-2.png" alt="web-woseng-2">
+        <!-- <img class="project-img" src="/images/web-woseng-3.png" alt="web-woseng-3">
+        <img class="project-img" src="/images/web-woseng-4.png" alt="web-woseng-4"> -->
+
+        <div class="title-div"><span class="title">주식회사 오성공조</span><span class="date">2020</span></div>
+        <div class="role">Fullstack Developer</div>
+        <ul class="ul">
+          <li><a class="link" href="http://www.aircon-mate.com/" target="_blank">http://www.aircon-mate.com</a></li>
+          <li>(주)오성공조 공식 홈페이지 제작</li>
+          <li>Developed website from the scratch using Node.js, Express, HTML, CSS, JavaScript and Heroku</li>
+          <li>Worked on the overall layouts of the website to make it responsive and adaptable</li>
+        </ul>
+      </div>
+
+      <hr>
+
+      <!-- HackerRank -->
+      <div>
+        <img class="hackaday-img" src="/images/web-hackaday-1.png" alt="web-hackaday-1">
+        <img class="hackaday-img" src="/images/web-hackaday-2.png" alt="web-hackaday-2">
+
+        <div class="title-div"><span class="title">Hackaday.io</span><span class="date">2020</span></div>
+        <div class="role">Fullstack Developer</div>
+        <ul class="ul">
+          <li><a class="link" href="https://hackaday-hyewonjoo.herokuapp.com/projects/page/1" target="_blank">https://hackaday-hyewonjoo.herokuapp.com/projects/page/1</a></li>
+          <li>Project Grid Page</li>
+          <ul>
+            <li>Rendered a page that shows a grid of projects (using <a class="content-link" href="https://dev.hackaday.io/doc/api/get-projects" target="_blank">GET /projects</a>) and it is initially rendered server-side</li>
+            <li>Displayed each project's metadata, including the owner</li>
+            <ul>
+              <li>Showing a tooltip presenting the owner's metadata when hovering over a project owner's name (using the <a class="content-link" href="https://dev.hackaday.io/" target="_blank">Hackaday API</a>)</li>
+              <li>Tooltip data should be loaded dynamically, client-side and it is only once per browsing session</li>
+            </ul>
+            <li>Implement pagination</li>
+            <ul>
+              <li>When going to next/previous project pages, the page should not reload and the browser bar should
+              display a unique/permanent URL</li>
+              <li>Visiting the permanent URL should load the same page of projects as if
+              the visitor navigated using the next/previous links</li>
+            </ul>
+          </ul>
+          <li>Project Detail Page</li>
+          <ul>
+            <li>When a project is clicked, server-side render a page that shows the clicked project's metadata (using <a class="content-link" href="https://dev.hackaday.io/doc/api/get-projects" target="_blank">GET /projects/:id</a>)</li>
+            <li>Showing "recommended projects" and/or "recommended users" by comparing the
+            selected project's tags with tags of other projects/users</li>
+            <li>About "Recommended Projects", I connected tags from selected project and tags from the first 50 projects</li>
+            <li>For "Recommended Users", it was not enough or sometime zero result from connecting the tags from selected project's creator and tags from the first 50 users. 
+            Thus, I got a user's info included tags from the array resulted from "Recommended Projects" and combined with the array that I just explained showing less results to show quite of more recommended users.</li>
+          </ul>
+          <li>Implement Testing</li>
+        </ul>
+        <br>
+        <div>[<a class="link" href="https://bitbucket.org/joo7875/hackaday/commits/" target="_blank">Code</a>] [<a class="link" href="/external/projects-web-hackaday-doc.pdf" target="_blank">Doc</a>]</div>
+      </div>
+
+      <hr>
+
+      <!-- F21 Collab -->
+      <div>
+        <img class="f21-collab-img" src="/images/web-f21-collab.png" alt="web-f21-collab">
+
+        <div class="title-div"><span class="title">FOREVER21 Collaboration</span><span class="date">2019</span></div>
+        <div class="role">Front-end Developer</div>
+
+        <ul class="ul">
+          <li><a class="link" href="https://www.forever21.com/us/shop/catalog/collabs/" target="_blank">https://www.forever21.com/us/shop/catalog/collabs</a></li>
+          <li>FOREVER21와 함께 콜라보 하는 기업들에 대한 필요한 데이터를 관리할 수 있는 Collab DB 생성</li>
+          <li>페이지 상에 출력되는 데이터를 관리하고, Carousel, Widget을 인덱스로 구분하여 효율적인 데이터 저장을 위한 확장 가능한 조인 테이블 생성</li>
+          <li>Collab DB를 클래스로 만들어 Model 구축, 필요한 데이터를 View를 통해 가져와 페이지에 출력, Controller에 있는 API를 통해 데이터를 View에 전달</li>
+        </ul>
+        
+      </div>
+
+      
+     
+    </div>
+
+
+  <script src="/javascripts/index.js"></script>
+
+  </body>
+
+
+</html>

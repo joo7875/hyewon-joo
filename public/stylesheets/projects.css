@@ -1,0 +1,168 @@
+.main {
+  margin-left: 290px; 
+  font-size: 18px; /* Increased text to enable scrolling */
+  padding: 2em 3em 5em 2em;
+}
+
+hr {
+	border: 1px solid #cccccc;
+	margin: 9em 0 5em 0;
+}
+
+.project-img {
+	width: 49%;
+}
+
+.koreanpocket-img {
+	width: 24.3%;
+}
+
+.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds {
+	width: 100%;
+}
+
+.heartree-img, .study-arduino {
+	width: 32%;
+}
+
+.study-c-java {
+	width: 49%;
+	border: 1px solid #dddddd;
+}
+
+.heartree-logo {
+	padding: 3.5em;
+}
+
+.title-div {
+	clear: both;
+	padding: 2em 2em 2.5em 0;
+}
+
+.title {
+	/*font-family: 'Gentium Book Basic', serif;*/
+	font-weight: bold;
+	font-size: 25px;
+	float: left;
+}
+
+.date {
+	/*font-family: 'Gentium Book Basic', serif;*/
+	font-weight: bold;
+	float: right;
+	padding-top: 3px;
+	font-size: 23px;
+}
+
+.role {
+	color: #949494;
+	margin-bottom: 2em;
+}
+
+.ul {
+	list-style: disc;
+	line-height: 2em;
+	padding-right: 2em;
+}
+
+.content {
+	line-height: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+.link {
+	color: #0074b8;
+}
+
+.link:hover {
+	text-decoration: none;
+}
+
+.content-link {
+	color: blue;
+}
+
+.content-link:hover {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+	.main {
+		margin: 5em 3em 9em 3em;
+		padding: 0;
+	}
+	.project-img {
+		width: 49%;
+	}
+
+	.koreanpocket-img {
+		width: 24.3%;
+	}
+
+	.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds {
+		width: 100%;
+	}
+
+	.heartree-logo {
+		padding: 4em;
+	}
+
+	.heartree-img, .study-arduino {
+		width: 30%;
+	}
+
+	.study-c-java {
+		width: 49%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.project-img {
+		width: 49%;
+	}
+
+	.koreanpocket-img {
+		width: 24%;
+	}
+
+	.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds {
+		width: 100%;
+	}
+
+	.heartree-logo {
+		padding: 4em;
+	}
+
+	.heartree-img, .study-arduino {
+		width: 30%;
+	}
+
+	.study-c-java {
+		width: 48%;
+	}
+
+	.title {
+		font-size: 20px;
+	}
+
+	.role {
+		font-size: 16px;
+	}
+
+	.date {
+		font-size: 18px;
+	}
+
+	.content {
+		font-size: 16px;
+	}
+
+	.ul {
+		font-size: 16px;
+	}
+
+	.link {
+		font-size: 16px;
+	}
+}
