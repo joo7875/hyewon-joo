@@ -166,3 +166,56 @@ hr {
 		font-size: 16px;
 	}
 }
+
+@media screen and (max-width: 680px) {
+	.heartree-logo {
+		padding: 1.5em;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.main {
+		margin: 3em 1.5em 5em 1.5em;
+		padding: 0;
+	}
+
+	.title {
+		font-size: 18px;
+	}
+	.role {
+		font-size: 14px;
+	}
+	.date {
+		font-size: 16px;
+	}
+	.content {
+		font-size: 14px;
+	}
+	.ul {
+		font-size: 14px;
+	}
+	.link {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.heartree-logo {
+		padding: 1em;
+		width: 20%;
+	}
+	.koreanpocket-img {
+		width: 23.8%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.heartree-logo {
+		padding: 1em;
+		width: 20%;
+	}
+	.koreanpocket-img {
+		width: 23.3%;
+	}
+}
+

@@ -32,3 +32,22 @@
 		padding: 5em 3em;
 	}
 }
+
+@media screen and (max-width: 470px) {
+	.main {
+		margin: 1.5em 1.5em 3em 1.5em;
+		padding: 4em 3em;
+	}
+	.title {
+		font-size: 20px;
+	}
+	.content {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.main {
+		padding: 4em 2em;
+	}
+}
