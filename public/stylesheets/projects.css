@@ -207,6 +207,25 @@ hr {
 	.koreanpocket-img {
 		width: 23.8%;
 	}
+
+	.title {
+		font-size: 17px;
+	}
+	.role {
+		font-size: 13px;
+	}
+	.date {
+		font-size: 15px;
+	}
+	.content {
+		font-size: 13px;
+	}
+	.ul {
+		font-size: 13px;
+	}
+	.link {
+		font-size: 13px;
+	}
 }
 
 @media screen and (max-width: 360px) {
