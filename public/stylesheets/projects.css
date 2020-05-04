@@ -171,6 +171,9 @@ hr {
 	.heartree-logo {
 		padding: 1.5em;
 	}
+	.title-div {
+		padding: 2em 1em 2.5em 0;
+	}
 }
 
 @media screen and (max-width: 470px) {
@@ -196,6 +199,10 @@ hr {
 	}
 	.link {
 		font-size: 14px;
+	}
+
+	.title-div {
+		padding: 2em 0.5em 2.5em 0;
 	}
 }
 
@@ -225,6 +232,10 @@ hr {
 	}
 	.link {
 		font-size: 13px;
+	}
+
+	.title-div {
+		padding: 2em 0.2em 2.5em 0;
 	}
 }
 
