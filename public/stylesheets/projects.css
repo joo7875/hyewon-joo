@@ -17,7 +17,7 @@ hr {
 	width: 24.3%;
 }
 
-.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds {
+.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds, .huinno-img {
 	width: 100%;
 }
 
@@ -86,6 +86,50 @@ hr {
 .content-link:hover {
 	text-decoration: none;
 }
+
+.huinno-div {
+	display: inline-block;
+	position: relative;
+}
+
+#arrow-left {
+	position: absolute;
+	width: 1.5em;
+	transform: scaleX(-1);
+	top: 45%;
+	cursor: pointer;
+	opacity: 0.2;
+	padding: 0.5em;
+	margin-left: 0.5em;
+}
+
+#arrow-right {
+	position: absolute;
+	width: 1.5em;
+	top: 45%;
+	right: 0;
+	cursor: pointer;
+	opacity: 0.2;
+	padding: 0.5em;
+	margin-right: 0.5em;
+}
+
+#arrow-left:hover, #arrow-right:hover {
+	opacity: 0.4;
+}
+
+.huinno-div a {
+	text-decoration: none;
+}
+
+.huinno-title {
+	text-align: center;
+	color: black;
+	margin-top: 0.5em;
+	font-size: 16px;
+	font-weight: bold;
+}
+
 
 @media screen and (max-width: 1100px) {
 	.main {
