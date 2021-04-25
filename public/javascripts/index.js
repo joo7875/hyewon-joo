@@ -28,7 +28,6 @@
     
 
   // Image Gallery
-
   var slideIndex = 1;
   var slideIndex_title = 1;
   showDivs(slideIndex);
@@ -64,3 +63,26 @@
     
     y[slideIndex_title-1].style.display = "block";  
   }
+
+
+  // ringle Image Gallery
+  var _slideIndex = 1;
+  _showDivs(_slideIndex);
+
+  function _plusDivs(n) {
+    _showDivs(_slideIndex += n);
+  }
+
+  function _showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("ringle-img");
+
+    if (n > x.length-1) _slideIndex = 1;
+    if (n < 1) _slideIndex = x.length-1;
+
+    for (i = 0; i < x.length-1; i++) 
+      x[i].style.display = "none";  
+    
+    x[_slideIndex-1].style.display = "block";  
+  }
+

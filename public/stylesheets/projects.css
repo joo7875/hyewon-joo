@@ -17,7 +17,7 @@ hr {
 	width: 24.3%;
 }
 
-.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds, .huinno-img {
+.koreanpocket-feature-img, .ticon-wireframe, .hackaday-img, .f21-collab-img, .study-ds, .huinno-img, .ringle-img {
 	width: 100%;
 }
 
@@ -87,7 +87,7 @@ hr {
 	text-decoration: none;
 }
 
-.huinno-div {
+.huinno-div, .ringle-div {
 	display: inline-block;
 	position: relative;
 }
@@ -118,7 +118,7 @@ hr {
 	opacity: 0.4;
 }
 
-.huinno-div a {
+.huinno-div a, .ringle-div a {
 	text-decoration: none;
 }
 
