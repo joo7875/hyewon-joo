@@ -1,5 +1,6 @@
 /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
 
+// nav
   var dropdown = document.getElementsByClassName("dropdown-btn");
   var i;
 
@@ -27,7 +28,10 @@
   }
     
 
-  // Image Gallery
+
+if (window.location.pathname === '/projects/web') {
+  // image gallary
+
   var slideIndex = 1;
   var slideIndex_title = 1;
   showDivs(slideIndex);
@@ -65,7 +69,8 @@
   }
 
 
-  // ringle Image Gallery
+
+  // ringle image gallary
   var _slideIndex = 1;
   _showDivs(_slideIndex);
 
@@ -86,3 +91,10 @@
     x[_slideIndex-1].style.display = "block";  
   }
 
+}
+
+
+// download resume
+function downloadFunc() {
+  window.open("/external/Hyewon Joo.pdf",'_blank');
+}
