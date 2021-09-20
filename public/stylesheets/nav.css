@@ -1,15 +1,18 @@
 #logo {
-	font-family: 'Gentium Book Basic', serif;
+	/* font-family: 'Gentium Book Basic', serif;
 	font-size: 35px;
 	color: black;
 	padding-top: 1em;
 	padding-bottom: 2em;
-  font-weight: bold;
+  font-weight: bold; */
+  font: normal normal normal 26px/1.4em cinzel,serif;
+  color: #303131;
+  white-space: nowrap;
+  display: inline-block;
 }
 
-#logo:hover {
+#logo:hover, #logo:focus {
 	color: black;
-	/*padding: 0;*/
 }
 
 /* Fixed sidenav, full height */
@@ -25,15 +28,14 @@
   margin-top: 3em;
   margin-left: 4.5em;
 
-  /*background-color: orange;*/
 }
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  font-size: 16px;
-  color: rgba(0, 0, 0, 0.75);
+  font-size: 15px;
+  color: #303131;
   display: block;
   border: none;
   background: none;
@@ -41,18 +43,17 @@
   text-align: left;
   cursor: pointer;
   outline: none;
-  padding: 0.6em 0;
+  padding: 1em 0;
 }
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
   color: #cccccc;
-  /*#0074b8*/
 }
 
 /* Add an active class to the active dropdown button */
 .active {
-  color: black !important;
+  color: #5C6B7A !important;
   font-weight: bold;
   /*text-decoration: underline;*/
 }
@@ -75,11 +76,9 @@
   }
 
   #logo-mid {
-    font-family: 'Gentium Book Basic', serif;
-    font-size: 30px;
-    color: black;
-    padding: 1em 1.5em 0em 1.5em;
-    font-weight: bold;
+    padding: 1.2em 1.5em 0em 1.5em;
+    font: normal normal normal 26px/1.4em cinzel,serif;
+    color: #303131;
   }
 
   body {
@@ -101,7 +100,8 @@
     text-align: center;
     padding: 2.5em 1.5em 0em 1.5em;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .topnav .icon {
@@ -111,10 +111,11 @@
   .dropdown {
     float: left;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .dropdown .dropbtn {
-    font-size: 16px;    
+    font-size: 15px;    
     border: none;
     outline: none;
     color: rgba(0, 0, 0, 0.75);
