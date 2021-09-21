@@ -1,59 +1,81 @@
 .main {
-  background-color: #f7f7f7;
-  border-radius: 100px 0;
+  background-color: #f0f3f6;
   margin-left: 290px; 
-  font-size: 18px; /* Increased text to enable scrolling */
-  padding: 3em 10em;
-  padding-bottom: 3.5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex_1 {
+	flex: 50%;
+	text-align: center;
+}
+
+#profile {
+	max-width: 100%;
+}
+
+.flex_2 {
+	flex: 50%;
+}
+
+#desc {
+	max-width: 400px;
+	padding: 10px 40px 10px 70px;
 }
 
 #name {
 	font: normal normal normal 40px/1.4em cinzel,serif;
-    color: #303131;
 }
 
 #intro {
-	font-family: 'Montserrat', sans-serif;
-	font-size: 15px;
-	padding: 2em 0;
+	font-size: 14.5px;
+	padding: 2em 0 0 0;
 	line-height: 2em;
 }
 
-#email {
-	text-align: center;
+@media screen and (max-width: 1500px) {
+	.main {
+		flex-direction: column;
+	}
+	#profile {
+		max-width: 55%;
+		margin: 3em 0 3em 0;
+		border-radius: 3em 0;
+	}
+	.flex_2 {
+		margin-bottom: 2em;
+	}
 }
 
 @media screen and (max-width: 1100px) {
 	.main {
 		margin: 3em 3em 5em 3em;
-		padding: 3em 5em;
-  		padding-bottom: 3.5em;
 	}
 }
 
 @media screen and (max-width: 700px) {
-	#intro, #email {
-		font-size: 16px;
+	#profile {
+		max-width: 70%;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	#desc {
+		padding: 10px 40px 10px 50px;
+	}
+}
+
+@media screen and (max-width: 570px) {
+	#profile {
+		max-width: 100%;
+		border-radius: 0;
+		margin: 0 0 3em 0;
 	}
 }
 
 @media screen and (max-width: 470px) {
 	.main {
 		margin: 2.5em 1.5em 3em 1.5em;
-		padding: 2em 2.5em;
-  		padding-bottom: 2.5em;
-	}
-	#name {
-		font-size: 20px;
-	}
-	#intro, #email {
-		font-size: 14px;
-	}
-}
-
-@media screen and (max-width: 370px) {
-	.main {
-		padding: 2em 2em;
-  		padding-bottom: 2.5em;
 	}
 }

@@ -5,7 +5,9 @@
 
 body {
   padding: 50px;
+  color: #303131;
   /*font: 14px "proxima-nova", Helvetica, Arial, sans-serif;*/
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
