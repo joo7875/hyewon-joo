@@ -22,8 +22,4 @@ router.get('/projects/study', function(req, res, next) {
   res.render('projects-study', { title: 'Hyewon Joo | Portfolio' });
 });
 
-router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'Hyewon Joo  |  Portfolio' });
-});
-
 module.exports = router;
