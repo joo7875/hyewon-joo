@@ -157,6 +157,11 @@
     display: block;
   }
 
+  #footer {
+    margin-left: 0 !important;
+    margin-bottom: 3em;
+  }
+
 }
 
 @media screen and (max-width: 470px) {
