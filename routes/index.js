@@ -18,4 +18,8 @@ router.get('/projects/personal', function(req, res, next) {
   res.render('projects-personal', { title: 'Hyewon Joo | Portfolio' });
 });
 
+router.get('/reference', function(req, res, next) {
+  res.render('reference', { title: 'Hyewon Joo | Portfolio' });
+});
+
 module.exports = router;

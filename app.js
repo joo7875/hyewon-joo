@@ -22,6 +22,7 @@ app.use('/', indexRouter);
 app.use('/projects/app', indexRouter);
 app.use('/projects/web', indexRouter);
 app.use('/projects/personal', indexRouter);
+app.use('/reference', indexRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
