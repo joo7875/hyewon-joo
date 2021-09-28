@@ -4,8 +4,19 @@
     padding: 2em 3em 5em 2em;
   }
 
-.embed {
-    text-align: center;
+.title {
+    margin-bottom: 1em;
+    line-height: 1.7;
+    /* font-family: cinzel, serif; */
+}
+
+.name {
+    font-size: 20px;
+}
+
+.role {
+    font-size: 12px;
+    color: lightgray;
 }
 
 .gap {
