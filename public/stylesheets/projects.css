@@ -9,6 +9,19 @@ hr {
 	margin: 10em 0 5em 0;
 }
 
+.sm-grid {
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (1fr)[4];
+	grid-template-columns: repeat(4, 1fr);
+	-ms-grid-rows: (1fr)[2];
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.sm-img {
+	width: 100%;
+}
+
 .project-img {
 	width: 49%;
 }
@@ -273,12 +286,17 @@ hr {
 }
 
 @media screen and (max-width: 420px) {
+	.sm-grid {
+		-ms-grid-columns: (1fr)[2];
+		-ms-grid-rows: (1fr)[4];
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+	}
 	.heartree-logo {
 		padding: 1.5em;
 		width: 25%;
 	}
 	.koreanpocket-img {
-		/*width: 23.8%;*/
 		width: 48.8%;
 	}
 	.heartree-img, .study-arduino {
