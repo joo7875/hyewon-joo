@@ -95,6 +95,6 @@ if (window.location.pathname === '/projects/web') {
 
 
 // download resume
-function downloadFunc() {
-  window.open("/external/Resume_Hyewon Joo.pdf",'_blank');
-}
+// function downloadFunc() {
+//   window.open("/external/Resume_Hyewon Joo.pdf",'_blank');
+// }
