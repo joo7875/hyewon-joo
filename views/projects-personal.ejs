@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/nav.css">
-    <link rel="stylesheet" href="/stylesheets/projects.css">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/nav.css" />
+    <link rel="stylesheet" href="/stylesheets/projects.css" />
 
     <title><%= title %></title>
   </head>
 
   <body>
-
     <!-- sidenav start -->
     <div class="sidenav">
       <a id="logo" href="/">Hyewon Joo</a>
@@ -21,13 +20,15 @@
       <a href="/">About</a>
 
       <button class="dropdown-btn active">Projects</button>
-      <div class="dropdown-container" style="display: block;">
+      <div class="dropdown-container" style="display: block">
         <a href="/projects/web">Web</a>
         <a href="/projects/app">App</a>
         <a class="active" href="/projects/personal">Personal</a>
       </div>
 
-      <a id="download" href="/external/Resume_Hyewon Joo.pdf" target="_blank">Resume</a>
+      <a id="download" href="/external/Resume_Hyewon Joo.pdf" target="_blank"
+        >Resume</a
+      >
       <a href="/reference">Reference</a>
     </div>
     <!-- sidenav end -->
@@ -45,113 +46,291 @@
           <a href="/projects/app">App</a>
           <a class="active" href="/projects/personal">Personal</a>
         </div>
-      </div> 
-      <a id="download" href="/external/Resume_Hyewon Joo.pdf" target="_blank">Resume</a>
+      </div>
+      <a id="download" href="/external/Resume_Hyewon Joo.pdf" target="_blank"
+        >Resume</a
+      >
       <a href="/reference">Reference</a>
-      
-      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size: 16px"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
     </div>
     <!-- topnav end -->
 
-
-
-
-
     <div class="main">
+      <!-- Lines -->
+      <div>
+        <img
+          class="lines-img"
+          src="/images/personal-lines-1.png"
+          alt="personal-lines-1"
+        />
+        <img
+          class="lines-img"
+          src="/images/personal-lines-2.png"
+          alt="personal-lines-2"
+        />
+
+        <div class="title-div">
+          <span class="title">Lines</span
+          ><span class="date">2023 - Present</span>
+        </div>
+        <div class="role">Founder · Product · Software Engineer</div>
+        <ul class="ul">
+          <li>
+            Crafting a cutting-edge mobile app dedicated to fostering mental
+            health and wellness through the power of journaling
+          </li>
+          <li>
+            Initiated in 2020, I recently revived this endeavor fueled by a
+            personal aspiration to cultivate self-motivation
+          </li>
+          <li>
+            Conceptualized the vision and translated it into reality by crafting
+            a meticulous wireframe, ensuring a deep understanding of user flow
+            and design intricacies
+          </li>
+        </ul>
+      </div>
+
+      <hr />
 
       <!-- Snake Game -->
       <div>
-        <img class="project-img" src="/images/mfc-snakegame-1.png" alt="mfc-snakegame-1">
-        <img class="project-img" src="/images/mfc-snakegame-2.png" alt="wmfc-snakegame-2">
+        <img
+          class="project-img"
+          src="/images/mfc-snakegame-1.png"
+          alt="mfc-snakegame-1"
+        />
+        <img
+          class="project-img"
+          src="/images/mfc-snakegame-2.png"
+          alt="wmfc-snakegame-2"
+        />
 
-        <div class="title-div"><span class="title">MFC Snake Game</span><span class="date">2015</span></div>
+        <div class="title-div">
+          <span class="title">MFC Snake Game</span
+          ><span class="date">2015</span>
+        </div>
         <div class="role">MFC Developer</div>
         <ul class="ul">
-          <li><a class="link" href="/external/snake_game.exe">Click here to play Snake Game</a></li>
-          <li>Within the square box, a virtual snake moves at a set speed and its tail will grow by +1 when it eats the randomly produced fruit</li>
+          <li>
+            <a class="link" href="/external/snake_game.exe"
+              >Click here to play Snake Game</a
+            >
+          </li>
+          <li>
+            Within the square box, a virtual snake moves at a set speed and its
+            tail will grow by +1 when it eats the randomly produced fruit
+          </li>
           <li>The higher the level, the faster the speed of snake</li>
-          <li>The game ends when the snake’s head bumps into the wall or hits its body</li>
+          <li>
+            The game ends when the snake’s head bumps into the wall or hits its
+            body
+          </li>
         </ul>
-        <br>
-        <div>[<a class="link" href="https://github.com/joo7875/mfc-snakegame.git" target="_blank">Code</a>] [<a class="link" href="/external/projects-mfc-snakegame.pdf" target="_blank">Slides</a>]</div>
-        
+        <br />
+        <div>
+          [<a
+            class="link"
+            href="https://github.com/joo7875/mfc-snakegame.git"
+            target="_blank"
+            >Code</a
+          >] [<a
+            class="link"
+            href="/external/projects-mfc-snakegame.pdf"
+            target="_blank"
+            >Slides</a
+          >]
+        </div>
       </div>
 
-      <hr>
-      
+      <hr />
 
       <!-- Data Science -->
       <div>
-        <img class="study-ds" src="/images/study-datascience-insurance-2.png" alt="study-datascience-insurance-2">
+        <img
+          class="study-ds"
+          src="/images/study-datascience-insurance-2.png"
+          alt="study-datascience-insurance-2"
+        />
 
-        <div class="title-div"><span class="title">Data Science</span><span class="date">2019</span></div>
+        <div class="title-div">
+          <span class="title">Data Science</span><span class="date">2019</span>
+        </div>
         <div class="role">House & Insurance Data Analysis</div>
-        <div class="content">Extracted meaningful and pure data of designated data set. Data analysis based on House data and Insurance data using Jupyter Notebook which allows to utilize data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning and so on.</div>
-        <div>[<a class="link" href="/external/projects-study-house.pdf" target="_blank">House slides</a> | <a class="link" href="/external/kc_house_data.csv" target="_blank">csv</a>] [<a class="link" href="/external/projects-study-insurance.pdf" target="_blank">Insurance slides</a> | <a class="link" href="/external/insurance.csv" target="_blank">csv</a>]</div>
+        <div class="content">
+          Extracted meaningful and pure data of designated data set. Data
+          analysis based on House data and Insurance data using Jupyter Notebook
+          which allows to utilize data cleaning and transformation, numerical
+          simulation, statistical modeling, data visualization, machine learning
+          and so on.
+        </div>
+        <div>
+          [<a
+            class="link"
+            href="/external/projects-study-house.pdf"
+            target="_blank"
+            >House slides</a
+          >
+          |
+          <a class="link" href="/external/kc_house_data.csv" target="_blank"
+            >csv</a
+          >] [<a
+            class="link"
+            href="/external/projects-study-insurance.pdf"
+            target="_blank"
+            >Insurance slides</a
+          >
+          |
+          <a class="link" href="/external/insurance.csv" target="_blank">csv</a
+          >]
+        </div>
       </div>
 
-      <hr>
+      <hr />
 
       <!-- Arduino -->
       <div>
-        <img class="study-arduino" src="/images/study-arduino-1.jpg" alt="study-arduino-1">
-        <img class="study-arduino" src="/images/study-arduino-2.jpg" alt="study-arduino-2">
-        <img class="study-arduino" src="/images/study-arduino-3.jpg" alt="study-arduino-3">
-        <img class="study-arduino" src="/images/study-arduino-4.jpg" alt="study-arduino-4">
-        <img class="study-arduino" src="/images/study-arduino-5.jpg" alt="study-arduino-5">
-        <img class="study-arduino" src="/images/study-arduino-6.jpg" alt="study-arduino-6">
+        <img
+          class="study-arduino"
+          src="/images/study-arduino-1.jpg"
+          alt="study-arduino-1"
+        />
+        <img
+          class="study-arduino"
+          src="/images/study-arduino-2.jpg"
+          alt="study-arduino-2"
+        />
+        <img
+          class="study-arduino"
+          src="/images/study-arduino-3.jpg"
+          alt="study-arduino-3"
+        />
+        <img
+          class="study-arduino"
+          src="/images/study-arduino-4.jpg"
+          alt="study-arduino-4"
+        />
+        <img
+          class="study-arduino"
+          src="/images/study-arduino-5.jpg"
+          alt="study-arduino-5"
+        />
+        <img
+          class="study-arduino"
+          src="/images/study-arduino-6.jpg"
+          alt="study-arduino-6"
+        />
 
-        <div class="title-div"><span class="title">Arduino & 3D Printing</span><span class="date">2017</span></div>
+        <div class="title-div">
+          <span class="title">Arduino & 3D Printing</span
+          ><span class="date">2017</span>
+        </div>
         <div class="role">3D printed RC Car and Arduino</div>
         <ul class="ul">
           <li>Learned how to use Arduino and a 3D Printer</li>
-          <li>Modeled RC cars using modeling tools before printing them out from 3D printer</li>
-          <li>Assembled Arduino to be mounted on an RC car and coded instructions to the Arduino engine</li>
+          <li>
+            Modeled RC cars using modeling tools before printing them out from
+            3D printer
+          </li>
+          <li>
+            Assembled Arduino to be mounted on an RC car and coded instructions
+            to the Arduino engine
+          </li>
           <li>Honored 1st place in car racing game by controlling RC car</li>
         </ul>
       </div>
 
-      <hr>
+      <hr />
 
       <!-- C++ / Java -->
       <div>
-        <img class="study-c-java" src="/images/study-c-java-1.jpg" alt="study-c-java-1">
-        <img class="study-c-java" src="/images/study-c-java-2.jpg" alt="study-c-java-2">
-        <img class="study-c-java" src="/images/study-c-java-3.jpg" alt="study-c-java-3">
-        <img class="study-c-java" src="/images/study-c-java-4.jpg" alt="study-c-java-4">
-        <img class="study-c-java" src="/images/study-c-java-5.jpg" alt="study-c-java-5">
+        <img
+          class="study-c-java"
+          src="/images/study-c-java-1.jpg"
+          alt="study-c-java-1"
+        />
+        <img
+          class="study-c-java"
+          src="/images/study-c-java-2.jpg"
+          alt="study-c-java-2"
+        />
+        <img
+          class="study-c-java"
+          src="/images/study-c-java-3.jpg"
+          alt="study-c-java-3"
+        />
+        <img
+          class="study-c-java"
+          src="/images/study-c-java-4.jpg"
+          alt="study-c-java-4"
+        />
+        <img
+          class="study-c-java"
+          src="/images/study-c-java-5.jpg"
+          alt="study-c-java-5"
+        />
 
-        <div class="title-div"><span class="title">Java String Class in C/C++</span><span class="date">2015</span></div>
-        <div class="role">Demonstrated already-made Java String class in C/C++ language</div>
+        <div class="title-div">
+          <span class="title">Java String Class in C/C++</span
+          ><span class="date">2015</span>
+        </div>
+        <div class="role">
+          Demonstrated already-made Java String class in C/C++ language
+        </div>
         <ul class="ul">
-          <li>Implemented C String class(custom String class) and replaced Java String class to C++ language</li>
-          <li>The custom String class substitutes of the standard C++ string class, and completely implemented as a library</li>
-          <li>As the leader of the team project, delegated roles appropriately to team members, ensured difficult sections of the project were addressed, remained aware of each member's work, and maintained our team's progress</li>
+          <li>
+            Implemented C String class(custom String class) and replaced Java
+            String class to C++ language
+          </li>
+          <li>
+            The custom String class substitutes of the standard C++ string
+            class, and completely implemented as a library
+          </li>
+          <li>
+            As the leader of the team project, delegated roles appropriately to
+            team members, ensured difficult sections of the project were
+            addressed, remained aware of each member's work, and maintained our
+            team's progress
+          </li>
         </ul>
-        <br>
-        <div>[<a class="link" href="/external/projects-study-c-java.pdf" target="_blank">Doc</a>]</div>
+        <br />
+        <div>
+          [<a
+            class="link"
+            href="/external/projects-study-c-java.pdf"
+            target="_blank"
+            >Doc</a
+          >]
+        </div>
       </div>
-
-     
     </div>
 
-
-
     <!-- footer start -->
-    <div id='footer'>
-      <a href="https://www.linkedin.com/in/hyewon-joo" target="_blank"><img class="social linkedin" src="/images/linkedin.svg" alt="linkedin" /></a>
-      <a href="mailto:joo7875@gmail.com"><img class="social email" src="/images/email.svg" alt="email" /></a>
+    <div id="footer">
+      <a href="https://www.linkedin.com/in/hyewon-joo" target="_blank"
+        ><img class="social linkedin" src="/images/linkedin.svg" alt="linkedin"
+      /></a>
+      <a href="mailto:joo7875@gmail.com"
+        ><img class="social email" src="/images/email.svg" alt="email"
+      /></a>
       <p id="desc_footer">
-        © 2021 created by Hyewon Joo <br>
-        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        © 2021 created by Hyewon Joo <br />
+        Icons made by
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
       </p>
     </div>
     <!-- footer end -->
 
-
-  <script src="/javascripts/index.js"></script>
-
+    <script src="/javascripts/index.js"></script>
   </body>
-
-
 </html>
