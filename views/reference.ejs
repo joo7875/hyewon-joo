@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-  	<meta charset='utf-8'>
-   	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-   	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/nav.css">
-    <link rel="stylesheet" href="/stylesheets/reference.css">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="/stylesheets/nav.css" />
+    <link rel="stylesheet" href="/stylesheets/reference.css" />
 
     <title><%= title %></title>
   </head>
 
   <body>
-
     <!-- sidenav start -->
     <div class="sidenav">
       <a id="logo" href="/">Hyewon Joo</a>
 
-      <a href="/">About</a>
+      <a class="active" href="/">About</a>
 
       <button class="dropdown-btn">Projects</button>
       <div class="dropdown-container">
@@ -27,18 +26,22 @@
         <a href="/projects/personal">Personal</a>
       </div>
 
-      <a id="download" href="/external/Resume_Hyewon Joo.pdf" target="_blank">Resume</a>
-      <a class="active" href="/reference">Reference</a>
-
+      <a
+        id="download"
+        href="/external/Hyewon Joo - Software Engineer 2024.pdf"
+        target="_blank"
+        >Resume</a
+      >
+      <a href="/reference">Reference</a>
     </div>
     <!-- sidenav end -->
-    
+
     <!-- topnav start -->
     <div class="topnav" id="myTopnav">
       <a id="logo-mid" href="/">Hyewon Joo</a>
 
-      <a href="/">About</a>
-      
+      <a class="active" href="/">About</a>
+
       <div class="dropdown">
         <button class="dropbtn">Projects</button>
         <div class="dropdown-content">
@@ -46,60 +49,88 @@
           <a href="/projects/app">App</a>
           <a href="/projects/personal">Personal</a>
         </div>
-      </div> 
-      
-      <a id="download" href="/external/Resume_Hyewon Joo.pdf" target="_blank">Resume</a>
-      <a class="active" href="/reference">Reference</a>
-      
-      <a href="javascript:void(0);" style="font-size:16px;" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+
+      <a
+        id="download"
+        href="/external/Hyewon Joo - Software Engineer 2024.pdf"
+        target="_blank"
+        >Resume</a
+      >
+      <a href="/reference">Reference</a>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size: 16px"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
     </div>
     <!-- topnav end -->
 
-
     <div class="main">
-
-      <div class='gap'>
-        <div class='title'>
-          <div class='name'>Letter from Seungwook Lee</div>
-          <div class='role'>Chief Executive Officer @ StudioMate</div>
+      <div class="gap">
+        <div class="title">
+          <div class="name">Letter from Seungwook Lee</div>
+          <div class="role">Chief Executive Officer @ StudioMate</div>
         </div>
-        <embed src="external/Ref_studiomate.pdf" width="100%" height="700" type="application/pdf">
+        <embed
+          src="external/Ref_studiomate.pdf"
+          width="100%"
+          height="700"
+          type="application/pdf"
+        />
       </div>
 
-      <div class='gap'>
-        <div class='title'>
-          <div class='name'>Letter from Nicole Barone-Williams</div>
-          <div class='role'>School Director @ TALK English Schools, Boston</div>
+      <div class="gap">
+        <div class="title">
+          <div class="name">Letter from Nicole Barone-Williams</div>
+          <div class="role">School Director @ TALK English Schools, Boston</div>
         </div>
-        <embed src="external/Reference by Nicole.pdf" width="100%" height="700" type="application/pdf">
+        <embed
+          src="external/Reference by Nicole.pdf"
+          width="100%"
+          height="700"
+          type="application/pdf"
+        />
       </div>
 
       <div>
-        <div class='title'>
-          <div class='name'>Letter from Dzmitry Razalyeu</div>
-          <div class='role'>Director of Field Marketing @ TALK English Schools</div>
+        <div class="title">
+          <div class="name">Letter from Dzmitry Razalyeu</div>
+          <div class="role">
+            Director of Field Marketing @ TALK English Schools
+          </div>
         </div>
-        <embed src="external/Reference by Dzmitry.pdf" width="100%" height="700" type="application/pdf">
+        <embed
+          src="external/Reference by Dzmitry.pdf"
+          width="100%"
+          height="700"
+          type="application/pdf"
+        />
       </div>
-
     </div>
 
-
     <!-- footer start -->
-    <div id='footer'>
-      <a href="https://www.linkedin.com/in/hyewon-joo" target="_blank"><img class="social linkedin" src="/images/linkedin.svg" alt="linkedin" /></a>
-      <a href="mailto:joo7875@gmail.com"><img class="social email" src="/images/email.svg" alt="email" /></a>
+    <div id="footer">
+      <a href="https://www.linkedin.com/in/hyewon-joo" target="_blank"
+        ><img class="social linkedin" src="/images/linkedin.svg" alt="linkedin"
+      /></a>
+      <a href="mailto:joo7875@gmail.com"
+        ><img class="social email" src="/images/email.svg" alt="email"
+      /></a>
       <p id="desc_footer">
-        © 2021 created by Hyewon Joo <br>
-        Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        © 2021 created by Hyewon Joo <br />
+        Icons made by
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
       </p>
     </div>
     <!-- footer end -->
 
-
-  <script src="/javascripts/index.js"></script>
-
+    <script src="/javascripts/index.js"></script>
   </body>
-
-
 </html>
