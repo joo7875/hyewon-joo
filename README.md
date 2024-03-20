@@ -7,6 +7,6 @@ git commit -am ""
 git push origin main
 
 heroku login
-heroku git:remote -a hyewon-joo-portfolio
+heroku git:remote -a hyewon-joo
 git push heroku main
 ```
